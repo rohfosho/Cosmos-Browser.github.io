@@ -17,8 +17,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Montserrat", "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
 }
 
 .lead {
@@ -31,8 +31,9 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/cosmos.png) no-repeat center center;
+    background: url(../img/starfield-background.jpg) no-repeat center center;
     background-size: cover;
+    height: 100%
 }
 
 .intro-message {
@@ -163,4 +164,13 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+#logo {
+    height: 400px;
+    width: auto;
+}
+
+.center {
+    text-align: center;
 }
