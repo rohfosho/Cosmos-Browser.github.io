@@ -47,8 +47,9 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    height: 60%
 }
 
 .intro-message > h1 {
@@ -176,7 +177,7 @@ p.copyright {
 }
 
 #logo {
-    height: 400px;
+    height: 50%;
     width: auto;
 }
 
