@@ -1,6 +1,7 @@
 /**
- * Particleground demo
- * @author Jonathan Nicol - @mrjnicol
+ * Starfieellldss
+ * @author Chen Ye
+ * based on particlefield from @mrjnicol
  */
 
 $(document).ready(function() {
