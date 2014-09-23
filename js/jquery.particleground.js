@@ -69,10 +69,23 @@
       styleCanvas();
 
       // Create particles
+      var maxO = options.maxOpacity;
+      var minO = options.minOpacity;
+      var rangeO = maxO - minO;
+      
+      var maxR = options.maxRadiusPct;
+      var minR = options.minRadiusPct;
+      var rangeR = maxR - minR;
+      
       var numParticles = Math.round((canvas.width * canvas.height) / options.density);
       for (var i = 0; i < numParticles; i++) {
         var p = new Particle();
+        var o = Math.random() * rangeO + minO;
+        var r = Math.random() * rangeR + minR;
+        
         p.setStackPos(i);
+        p.setOpacity(o);
+        p.setRadiusScalar(r);
         particles.push(p);
       };
 
@@ -231,8 +244,9 @@
     Particle.prototype.draw = function() {
       // Draw circle
       ctx.beginPath();
-      ctx.arc(this.position.x + this.parallaxOffsetX, this.position.y + this.parallaxOffsetY, options.particleRadius / 2, 0, Math.PI * 2, true); 
+      ctx.arc(this.position.x + this.parallaxOffsetX, this.position.y + this.parallaxOffsetY, options.particleRadius / 2 * this.radiusScalar, 0, Math.PI * 2, true); 
       ctx.closePath();
+      ctx.fillStyle = "rgba(255, 255, 255, " + this.opacity + ")";
       ctx.fill();
 
       // Draw lines
@@ -332,6 +346,14 @@
     Particle.prototype.setStackPos = function(i) {
       this.stackPos = i;
     }
+    
+    Particle.prototype.setOpacity = function(f) {
+      this.opacity = f;
+    }
+    
+    Particle.prototype.setRadiusScalar = function(f) {
+      this.radiusScalar = f;
+    }
 
     function option (key, val) {
       if (val) {
@@ -404,7 +426,11 @@
     parallax: true,
     parallaxMultiplier: 5, // The lower the number, the more extreme the parallax effect
     onInit: function() {},
-    onDestroy: function() {}
+    onDestroy: function() {},
+    minOpacity: 0.0,
+    maxOpacity: 1.0,
+    minRadiusPct: 1.0,
+    maxRadiusPct: 1.0
   };
 
 })(jQuery);
