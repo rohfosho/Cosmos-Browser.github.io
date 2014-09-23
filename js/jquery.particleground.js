@@ -77,7 +77,7 @@
       var minR = options.minRadiusPct;
       var rangeR = maxR - minR;
       
-      var numParticles = Math.max(Math.round((canvas.width * canvas.height) / options.density), options.maxParticles);
+      var numParticles = Math.min(Math.round((canvas.width * canvas.height) / options.density), options.maxParticles);
       for (var i = 0; i < numParticles; i++) {
         var p = new Particle();
         var o = Math.random() * rangeO + minO;
