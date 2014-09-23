@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g id="Planet_Base">
+	<g>
+		<circle fill="#852E1E" cx="256" cy="256" r="132.5"/>
+	</g>
+</g>
+<g id="Brights">
+	<g>
+		<defs>
+			<circle id="SVGID_1_" cx="256" cy="256" r="132.5"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<circle clip-path="url(#SVGID_2_)" fill="#E95134" cx="306.8" cy="223.1" r="147.4"/>
+	</g>
+</g>
+<g id="Moon2">
+	<g>
+		<circle fill="#B5B5B5" cx="310" cy="202" r="24"/>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_3_" cx="310" cy="202" r="24"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+		<circle clip-path="url(#SVGID_4_)" fill="#E9E9E9" cx="319.2" cy="196" r="26.7"/>
+	</g>
+</g>
+<g id="Ring">
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="36.8" y="64.9" width="491.2" height="399.6">
+			<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+			<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="36.8" y="64.9" width="491.2" height="399.6" id="SVGID_5_">
+		<g filter="url(#Adobe_OpacityMaskFilter)">
+			<g>
+				<path d="M162.3,349.7c-51.7-51.7-51.7-135.6,0-187.4s135.6-51.7,187.4,0"/>
+			</g>
+		</g>
+	</mask>
+	<g mask="url(#SVGID_5_)">
+		<g>
+			<g enable-background="new    ">
+				<defs>
+					<polygon id="SVGID_16_" enable-background="new    " points="36.8,410 321.8,111.7 528,64.9 160.9,464.5 					"/>
+				</defs>
+				<clipPath id="SVGID_6_">
+					<use xlink:href="#SVGID_16_"  overflow="visible"/>
+				</clipPath>
+				<g clip-path="url(#SVGID_6_)">
+					<g>
+						<g>
+							<g>
+								<path fill="#852E1E" d="M118,402.8c-7.3-2.5-10.1-8.9-9.2-18.1c0.9-9,5.3-20.6,12.6-34.2c7.2-13.2,17.2-28.1,29.6-44.2
+									c12.2-15.8,26.8-32.8,43.6-50.3c16.6-17.4,34-34,51.2-49.2c17.3-15.3,34.8-29.3,51.6-41.6c17-12.4,33.4-23,48.2-31
+									c15.2-8.3,28.9-13.9,40-16.1c11.5-2.3,19.2-0.6,23.1,4.5c4,5.2,4.1,14.2,0.1,26.2c-4.1,12.4-12.4,27.9-24.7,45.9
+									c-12.6,18.4-29.3,39.2-49.8,61.4c-20.7,22.4-42.9,43.8-65.3,63.1c-22.2,19.2-44.1,36-64.4,49.5
+									c-19.9,13.3-37.9,23.2-52.9,29.1C137.1,403.5,125.6,405.4,118,402.8 M410.5,91.6c-6.7,1.5-14.1,4-22.1,7.4
+									c-7.9,3.3-16.4,7.5-25.4,12.4c-8.9,4.9-18.3,10.5-28,16.9c-9.7,6.3-19.8,13.3-30.2,20.9c-10.3,7.6-20.7,15.6-31,24
+									c-10.3,8.3-20.5,17-30.7,26c-10.1,9-20.1,18.2-30,27.7c-9.9,9.5-19.6,19.2-29.1,29.2c-9.5,10-18.6,19.8-27,29.6
+									c-8.5,9.8-16.5,19.4-23.8,28.8c-7.4,9.5-14.2,18.7-20.3,27.7c-6.2,9-11.6,17.8-16.3,26.1c-4.7,8.4-8.5,16.2-11.2,23.2
+									c-2.8,7.2-4.6,13.5-5.3,19.1c-0.7,5.6-0.3,10.4,1.2,14.2c1.6,3.9,4.3,6.8,8.3,8.5c4.1,1.8,9.3,2.4,15.7,1.8
+									c6.5-0.6,14.1-2.5,22.7-5.7c8.8-3.2,18.6-7.7,29.4-13.4c10.9-5.8,22.8-13,35.6-21.4c12.9-8.5,26.1-18,39.6-28.3
+									c13.6-10.4,27.3-21.6,41-33.5c13.7-11.9,27.3-24.4,40.6-37.2c13.3-12.9,26.1-26.1,38.4-39.4c12.2-13.3,23.4-26.3,33.5-38.8
+									c10-12.4,18.8-24.2,26.4-35.4c7.5-11,13.8-21.4,18.7-30.9c4.9-9.4,8.5-17.9,10.8-25.5c2.2-7.4,3.1-13.7,2.7-18.8
+									c-0.4-5-2.1-8.9-4.9-11.7c-2.8-2.7-6.6-4.3-11.6-4.9C423.2,89.5,417.3,90,410.5,91.6"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
