@@ -15,6 +15,6 @@ $(document).ready(function() {
     minRadiusPct: .5,
     maxRadiusPct: 2.2,
     minOpacity: .5,
-    maxOpacity: 1.0
+    maxOpacity: .8
   });
 });
