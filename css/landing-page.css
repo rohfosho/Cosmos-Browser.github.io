@@ -210,3 +210,13 @@ p.copyright {
   width: inherit;
   opacity: 60%
 }
+
+#tshirt {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.linkicon {
+  margin: 40px 20px 0px 20px;
+}
+
